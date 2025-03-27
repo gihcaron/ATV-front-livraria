@@ -20,7 +20,7 @@ export default function Page() {
       <h2 className='styles.subtitle'>Categorias</h2>
         <ul className='styles.link_list'>
           <li>
-            <a href="/fiction" className='styles.link'>Ficção</a>
+            <a href="/fiction" className='styles.link'>{Text}</a>
           </li>
           <li>
             <a href="/non-fiction" className='styles.link'>Não Ficção</a>
@@ -38,4 +38,3 @@ export default function Page() {
     </div>
   );
 }
-
