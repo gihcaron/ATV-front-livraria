@@ -78,3 +78,26 @@
 .list a:hover {
   text-decoration: underline;
 }
+
+/* Bottom estilização */
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 30rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  border-top: 2px solid rgba(240, 184, 242, 0.2);
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.Bottom_Link{
+  display: flex;
+  justify-content: center;
+  gap: 3rem; /* Adiciona espaçamento entre os tópicos */
+}
+.Bottom_Link a{
+  color: #e1b8f0;
+  text-decoration: none;
+}

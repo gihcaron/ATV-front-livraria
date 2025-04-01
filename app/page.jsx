@@ -52,6 +52,16 @@ const Redes = [
 
     </div>
 
+    <div className={styles.footer_bottom}>
+      <p> © {new Date().getFullYear()}BooksVerse. Todos os direitos reservados.</p>
+
+      <div className={styles.Bottom_Link}>
+        <a href="#">Termos de Uso</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Política de Cookies</a>
+      </div>
+    </div>
+
     </div>
   );
 }
