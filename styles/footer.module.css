@@ -82,9 +82,9 @@
 /* Bottom estilização */
 
 .footer_bottom{
-    display: flex;
-    justify-content: space-between;
-    gap: 30rem;
+ display: flex;
+justify-content: space-between;
+gap: 30rem;
   text-align: center;
   margin-top: 1.5rem;
   border-top: 2px solid rgba(240, 184, 242, 0.2);

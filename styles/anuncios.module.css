@@ -1,0 +1,29 @@
+.anuncios_container{
+    padding: 2rem;
+}
+
+.anuncios_content{
+    display: flex;
+    flex-direction: space-between;
+    gap: 83%
+}
+
+.anuncios_title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgba(36, 0, 70, 255);
+    margin-bottom: 1rem;
+}
+
+.link{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #4c0367;
+    margin-bottom: 0.5rem;
+}
+
+.anuncios_section{
+    display: flex;
+    flex-direction: Space-between;
+    gap: 1.3rem;
+}
