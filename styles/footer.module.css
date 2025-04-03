@@ -95,9 +95,44 @@ gap: 30rem;
 .Bottom_Link{
   display: flex;
   justify-content: center;
-  gap: 3rem; /* Adiciona espaçamento entre os tópicos */
+  gap: 3rem; 
 }
 .Bottom_Link a{
   color: #e1b8f0;
   text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    font-size: 0.9rem;
+  }
+
+  .link_title {
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .footer_bottom {
+    font-size: 0.7rem;
+    gap:20rem;
+  }
+  .footer_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer_bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .Bottom_Link {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
