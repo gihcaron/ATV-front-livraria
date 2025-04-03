@@ -4,7 +4,7 @@ import React from "react";
 
 import styles from "../styles/anuncios.module.css";
 
-import BookCard from "../components/card";
+import BookCard from "./Card";
 
 
 const  LancamentosPage = () => {
@@ -17,6 +17,7 @@ const  LancamentosPage = () => {
     stars: "⭐⭐⭐⭐⭐",
     price: "59.90",
     tags: ["Nacional", "Biografia"],
+    lancamento: true,
   };
 
   const AHoraDaEstrela = {
@@ -27,6 +28,7 @@ const  LancamentosPage = () => {
     stars: "⭐⭐⭐⭐⭐",
     price: "39.90",
     tags: ["Nacional", "Romance"],
+    lancamento: true,
   };
 
   const AmanhecerNaColheita = {
@@ -37,6 +39,7 @@ const  LancamentosPage = () => {
     stars: "⭐⭐⭐⭐",
     price: "49.90",
     tags: ["Ficção Científica" , "Aventura"],
+    lancamento: true,
   };
 
  
@@ -60,6 +63,7 @@ const  LancamentosPage = () => {
             stars={AindaEstouAqui.stars}
             price={AindaEstouAqui.price}
             tags={AindaEstouAqui.tags}
+            lancamento={AindaEstouAqui.lancamento}
           />
           <BookCard
             AltTitle={AHoraDaEstrela.AltTitle}
@@ -69,6 +73,7 @@ const  LancamentosPage = () => {
             stars={AHoraDaEstrela.stars}
             price={AHoraDaEstrela.price}
             tags={AHoraDaEstrela.tags}
+            lancamento={AHoraDaEstrela.lancamento}
           />
           <BookCard
             AltTitle={AmanhecerNaColheita .AltTitle}
@@ -78,6 +83,7 @@ const  LancamentosPage = () => {
             stars={AmanhecerNaColheita .stars}
             price={AmanhecerNaColheita .price}
             tags={AmanhecerNaColheita .tags}
+            lancamento={AmanhecerNaColheita .lancamento}
           />
 
         </div>

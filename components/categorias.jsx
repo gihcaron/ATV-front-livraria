@@ -4,7 +4,7 @@ import React from "react";
 
 import styles from "../styles/anuncios.module.css";
 
-import IconCard from "../components/IconCard";
+import IconCard from "./IconCard";
 
 
 const  CategoriasPage = () => {
