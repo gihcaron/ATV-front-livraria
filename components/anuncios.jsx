@@ -4,7 +4,7 @@ import React from "react";
 
 import styles from "../styles/anuncios.module.css";
 
-import BookCard from "../components/card";
+import BookCard from "./Card";
 
 
 const  AnunciosPage = () => {
@@ -32,7 +32,7 @@ const  AnunciosPage = () => {
   const blackOut= {
     AltTitle: "Blackout",
     image: "https://a-static.mlcdn.com.br/1500x1500/livro-blackout/magazineluiza/231311400/d96377a13ce0fe562c66f9a0a4b29fa2.jpg",
-    title: "Blsckout",
+    title: "Blackout",
     author: "Ashley Woodfolk",
     stars: "⭐⭐⭐⭐",
     price: "49.90",
@@ -47,14 +47,15 @@ const  AnunciosPage = () => {
     stars: "⭐⭐⭐⭐",
     price: "239.90",
     tags: ["Fantasia", "Juvenil"],
+
   };
 
 
   return (
     <div className={styles.container} style={{ backgroundColor: "#F9F6F9" }}>
       <div className={styles.anuncios_container}>
-        <div className={styles.anuncios_content}>
-          <h1 className={styles.anuncios_title}>Anúncios</h1>
+        <div className={styles.anuncio_content}>
+          <h1 className={styles.anuncios_title}>Destaques da Semana</h1>
           <a className={styles.link} href="#">
             Ver mais
           </a>

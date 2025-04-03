@@ -10,7 +10,13 @@
 .anuncios_content{
     display: flex;
     flex-direction: space-between;
-    gap: 83%
+    gap: 80%
+}
+
+.anuncio_content{
+    display: flex;
+    flex-direction: space-between;
+    gap: 70%
 }
 
 .anuncios_title{

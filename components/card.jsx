@@ -4,17 +4,19 @@ import React from 'react';
 import styles from '../styles/card.module.css';
 
 
-const  BookCard = ({AltTitle, image, title,  author, stars, price, tags}) => {
+const  BookCard = ({AltTitle, image, title,  author, stars, price, tags, lancamento}) => {
 
 return (
-
     <div className={styles.card}>
+        <div className={styles.card_image}></div>
 
     <div className={styles.card_image}>
         <img src={image} alt={AltTitle} />
     </div>
 
     <div className={styles.card_content}>
+
+{ lancamento && <h3 className={styles.new}>NOVO</h3>}
 
     <h3 className={styles.title}>{title}</h3>
     <p className={styles.author}> por {author}</p>
@@ -39,6 +41,10 @@ return (
     </div>
 );
 }
+
+BookCard.defaultProps = {
+    lancamento: false, 
+  };  
 
 export default BookCard;
 

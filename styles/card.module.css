@@ -1,11 +1,47 @@
 .card{
     background: #f4f2f2;
     border-radius: 8px;
-    width: 18rem;
-    height: 26rem;
+    width: 20rem;
+    height: 30rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+
+.card:hover{
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.new{
+    background-color: #59027b;
+    color: #ededed;
+    padding: 0.5rem 0.8rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.5rem;
+    margin-right: 1.5rem;
+    
+}
+
+.card:hover .new {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+.new_book {
+    animation: blink 4s infinite;
+}
+
 
 
 .card_image img{
