@@ -28,7 +28,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className={styles.barraPesquisa}>
-        <input type="text" placeholder="peasquisar" className={styles.inputPesquisar} />
+        <input type="text" placeholder="Pesquisar" className={styles.inputPesquisar} />
         <button className={styles.lupa}>🔍</button>
       </div>
 
