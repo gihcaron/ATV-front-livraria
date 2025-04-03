@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff; 
+  border-bottom: 1px solid #ddd; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;}
+
+.slogan {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.linkList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px; 
+}
+
+.slogan {
+  font-size: 14px;
+  color: #666;
+  margin-left: 10px;
+}
+
+.link:hover {
+  color: #1e2c3b;
+}
+
+.linkList li {
+  margin-right: 20px; 
+}
+
+.link {
+  text-decoration: none;
+  color: #c36c7c;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #f0bed0;
+}
+
+.barraPesquisa {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1; 
+  border: 1px solid #ccc; 
+  border-radius: 30px; 
+  padding: 5px 10px; 
+  width: 300px; 
+}
+
+.inputPesquisar {
+  flex: 1; 
+  border: none; 
+  outline: none; 
+  background: transparent; 
+  font-size: 14px; 
+  padding: 5px; 
+}
+
+.lupa {
+  background-color: #c36c7c; 
+  border: none; 
+  border-radius: 50%; 
+  width: 35px; 
+  height: 35px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.lupa:hover {
+  background-color: #f0bed0; 
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+.favIcon {
+  width: 30px; 
+  height: 30px; 
+}
+.favIcon:hover {
+  transform: scale(1.1);
+}
+
+.cartIcon {
+  width: 30px; 
+  height: 30px; 
+}
+.cartIcon:hover {
+  transform: scale(1.1);
+}
+
+.profileIcon{
+  width: 40px; 
+  height: 40px; 
+}
+.profileIcon:hover {
+  transform: scale(1.1);
+}
