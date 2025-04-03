@@ -11,9 +11,9 @@ const  CategoriasPage = () => {
 
   return (
     <div className={styles.container} style={{ backgroundColor: "#FFFF" }}>
-      <div className={styles.anuncios_container}>
+      <div className={styles.icon_container}>
         <div className={styles.anuncios_content}>
-          <h1 className={styles.anuncios_title}>Anúncios</h1>
+          <h1 className={styles.anuncios_title}>Categorias</h1>
           <a className={styles.link} href="#">
             Ver mais
           </a>

@@ -1,7 +1,11 @@
 .anuncios_container{
     padding: 2rem;
-    margin-bottom: 5rem;
 }
+
+.icon_container{
+    padding: 2rem;
+}
+
 
 .anuncios_content{
     display: flex;
