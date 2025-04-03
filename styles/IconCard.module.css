@@ -1,15 +1,14 @@
 .card{
     background: #f4f2f2;
     border-radius: 8px;
-    width: 18rem;
-    height: 25rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 9rem;
+    height: 9rem;
     text-align: center;
 }
 
 .card:hover{
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    background-color: blueviolet;
+    background-color: #e1b8f0;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -18,18 +17,25 @@
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 1.7rem;
+    color: #4c0367;
+    margin-bottom: 0.5rem;
 }
 
 .title{
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 500;
     color: rgba(36, 0, 70, 255);
-    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: start;
