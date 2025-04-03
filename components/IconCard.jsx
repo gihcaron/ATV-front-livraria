@@ -13,8 +13,8 @@ return (
 
     <div className={styles.card_content}>
 
-    <h3 className={styles.title}>{icon}</h3>
-    <p className={styles.author}>  {title}</p>
+    <h3 className={styles.icon}>{icon}</h3>
+    <p className={styles.title}>  {title}</p>
 
     </div>
     </div>
