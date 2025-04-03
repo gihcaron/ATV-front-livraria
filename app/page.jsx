@@ -48,14 +48,14 @@ const styles = {
     textAlign: 'center',
     marginTop: '20px',
     marginBottom: '20px',
-    marginLeft: '55px',
-    marginRight: '55px',
+    marginLeft: '35px',
+    marginRight: '35px',
     height: '15rem',
   },
   title: {
     color: '#fff',
     fontSize: '24px',
-    marginBottom: '10px',
+    marginBottom: '20px',
     marginTop: '30px',
   },
   subtitle: {
