@@ -62,14 +62,14 @@
 
 .link {
   text-decoration: none;
-  color: #c36c7c;
+  color: #1e2c3b;
   font-size: 16px;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 .link:hover {
-  color: #f0bed0;
+  color: #e1b8f0;
 }
 
 .barraPesquisa {
@@ -92,7 +92,7 @@
 }
 
 .lupa {
-  background-color: #c36c7c; 
+  background-color: #1e2c3b; 
   border: none; 
   border-radius: 50%; 
   width: 35px; 
@@ -104,7 +104,7 @@
 }
 
 .lupa:hover {
-  background-color: #f0bed0; 
+  background-color: #e1b8f0; 
 }
 
 .icones {
