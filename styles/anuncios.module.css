@@ -1,6 +1,6 @@
 .anuncios_container{
     padding: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .anuncios_content{
@@ -24,6 +24,8 @@
 }
 
 .anuncios_section{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: Space-between;
     gap: 1.3rem;
