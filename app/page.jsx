@@ -1,11 +1,12 @@
 "use client";
 
 import React from "react";
+import styles from "../styles/anuncios.module.css";
 
 import AnunciosPage from "../components/anuncios";
-import LancamentosPage from "../components/lancamentos";
+
 import Footer from "../components/Footer";
-import styles from "../styles/anuncios.module.css";
+import LancamentosPage from "../components/lancamentos";
 
 export default function HomePage() {
   return (
@@ -13,7 +14,7 @@ export default function HomePage() {
       <AnunciosPage />
 
       <LancamentosPage />
-      
+
       <Footer />
     </div>
   );
