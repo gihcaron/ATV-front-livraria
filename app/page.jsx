@@ -21,10 +21,12 @@ export default function HomePage() {
           Ver ofertas
         </button>
       </main>
-      <LancamentosPage />
+
 
       <AnunciosPage />
+
       <CategoriasPage />
+      
       <LancamentosPage />
 
       <section style={styles.container}>
