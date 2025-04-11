@@ -16,7 +16,7 @@ export default function HomePage() {
       <Header />
       <main>
         <h2>Descubra mundos extraordinários!</h2>
-        <p>Promoção de lançamento com até 30% de desconto</p>
+        <p>Promoção de lançamento com até <strong>30% de desconto</strong> em títulos selecionados. Sua próxima aventura começa aqui!</p>
         <button onClick={() => alert("Botão clicado!")}>
           Ver ofertas
         </button>
@@ -31,7 +31,7 @@ export default function HomePage() {
 
       <section style={styles.container}>
         <h2 style={styles.title}>Nossos Lançamentos</h2>
-        <p style={styles.subtitle}>Não sei o que sei oq lá</p>
+        <p style={styles.subtitle}>Fique por dentro das novidades, lançamentos e edições exclusivas direto no seu e-mail!</p>
         <div style={styles.form}>
           <input type="email" placeholder="Email" style={styles.input} />
           <button style={styles.button}>Enviar</button>
